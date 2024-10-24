@@ -8,9 +8,9 @@ import datetime
 # limpar o terminal
 os.system('cls')
 
-print('-'*70)
+print('-'*70) # firulinha visual
 print('ENTRADA DE DADOS EM PYTHON')
-print('-'*70)
+print('-'*70) # firuinha visual
 
 # Entrada
 nome = input('Entre com um nome: ')
