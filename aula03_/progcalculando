@@ -3,7 +3,7 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('OPERADORES ARITMÉTICOS')
+print(' CALCULADORA DE OPERADORES ARITMÉTICOS')
 print('-'*70)
 
 print(' --- SOMA')
@@ -50,5 +50,3 @@ print(f'A subtração de {minuendo} - {subtraendo} é: {diferenca}')
 print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
 print(f'A divisão de {dividendo} ÷ {divisor} é: {quociente}') 
 print('A raiz quadrada foi {:.2f} e a raiz cúbica foi {:.2f}' .format(raizQ, raizC))
-
-# acrescente a raiz quadrado e raiz cubica
