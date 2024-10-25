@@ -9,7 +9,7 @@ import os
 os.system('cls')
 
 print('-'*70)
-print('Operadores Aritméticos: Odem de Precedência')
+print('Operadores Aritméticos: Ordem de Precedência')
 print('-'*70)
 
 # Entrada
