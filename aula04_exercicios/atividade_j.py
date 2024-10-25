@@ -13,8 +13,8 @@ print('-'*70)
 print('Eu consigo calcular o perímetro de um retângulo! Gostaria de testar?')
 print('-'*70)
 
-b = float(input('Insira o valor da base: '))
-a = float(input('Insira a altura: '))
-p = 2*(b + a)
+base = float(input('Insira o valor da base: '))
+altura = float(input('Insira a altura: '))
+perimetro = 2*(base + altura)
 
-print(f'O perímetro de um retângulo com base {b} e altura {a} será igual a: {p}')
+print(f'O perímetro de um retângulo com base {base} e altura {altura} será igual a: {perimetro}')
