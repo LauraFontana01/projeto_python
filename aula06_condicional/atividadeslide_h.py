@@ -19,7 +19,6 @@ print('-'*50)
 a = 1
 b = -6
 c = 5
-resposta = ''
 
 # Processamento // a potencia vem primeiro!
 delta = (b ** 2) - (4 * a * c)
