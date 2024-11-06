@@ -15,5 +15,13 @@ print('~'*50)
 print('Brincadeira das Vogais!')
 print('~'*50)
 
-frase = "Lhamas Corredoras do Hawai!"
+frase = input('Digite uma frase: ').lower()
 
+contagem_a = frase.count('a')          # count(substring): retorna o número de ocorrências da substring na string
+contagem_e = frase.count('e')
+contagem_i = frase.count('i')
+contagem_o = frase.count('o')
+contagem_u = frase.count('u')
+
+todas = contagem_a + contagem_e + contagem_i + contagem_o + contagem_u 
+print(f'As vogais aparecem {todas} vezes!')
