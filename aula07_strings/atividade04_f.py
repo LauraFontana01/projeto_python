@@ -17,7 +17,7 @@ print('-'*50)
 print('Divisão de palavras na frase')
 print('-'*50)
 
-nome = 'Rex BrunoSon Fontana Rodgers'
+nome = 'Laura Fontana Ribeiro'
 
 lista = nome.split() # split(sep): Divide a string em substrings com base no separador especificado e retorna uma lista das substrings resultantes.
 
