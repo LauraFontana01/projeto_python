@@ -11,17 +11,10 @@ import os
 
 os.system('cls')
 
-print('-'*50)
-print('Você é da família Oliveira?')
-print('-'*50)
-
 nome = input('Digite seu nome completo: ')
-
-print('~'*50)
 
 print(f'Nome: {nome}')
 if "Oliveira" in nome:
-    print('O sobrenome "Oliveira" está presente no seu nome!')
+    print('Você é da família Oliveira!')
 else:
-    print('O sobrenome "Oliveira" não está presente no seu nome!')
-print('~'*50)
+    print('Você não tem o sobrenome "Oliveira"!')

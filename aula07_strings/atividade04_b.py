@@ -11,12 +11,8 @@ import os
 
 os.system('cls')
 
-print('-'*50)
-print('Troca Palavras!')
-print('.'*50)
-
-frase1 = input('Insira seu nome: ')
-print('~'*50)
+frase1 = 'João da Silva'
 substituicao = frase1.replace("da Silva", "de Oliveira")
-print(f'Nome Original: {frase1}')
-print(f'Nome novo: {substituicao}')
+
+print(f'Nome original: {frase1}')
+print(f'Nome com Substituição: {substituicao}')

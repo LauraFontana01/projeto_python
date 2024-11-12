@@ -13,16 +13,12 @@ import os
 
 os.system('cls')
 
-print('.'*50)
-print('Seu nome completo')
-print('~'*50)
+nome = input('Digite seu nome: ').capitalize()
+nomedomeio = input('Digite seu nome do meio: ').capitalize()
+sobrenome = input('Digite seu sobrenome: ').capitalize()
 
-nome = input('Insira seu nome: ').capitalize()
-nomedomeio = input('Insira seu nome do meio: ').capitalize()
-sobrenome = input('Insira seu sobrenome: ').capitalize()
+nomecompleto = nome + ' ' + nomedomeio +' ' + sobrenome
 
-nome_completo = nome +' '+ nomedomeio +'' + sobrenome
-
-print(f'Seu nome é: {nome_completo}')
-
+print('-'*50)
+print(f'Seu nome completo é {nomecompleto}!')
 
