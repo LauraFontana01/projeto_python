@@ -22,4 +22,15 @@ fim = int(input('Fim do Intervalo: '))
 
 # Processamento dos intervalos
 for intervalo in range(inicio, fim + 1):
-    # Condição de i
+    # Condição de ignorar -, 0 e 1
+    if intervalo < 2:
+        continue
+    else:
+        primo = True
+
+        for divisor in range(2, int(intervalo**0.5)+1):
+            if intervalo % divisor ==0:
+                primo = False
+
+        if primo == True:
+            print(f'{intervalo}')
