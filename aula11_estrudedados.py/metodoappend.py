@@ -1,3 +1,10 @@
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 21/11/2024
+# Estrutura de Dados
+# O código solicita ao usuário para inserir três números, adiciona-os a uma lista e, a cada inserção, permite que o usuário busque um número na lista, informando se ele está presente ou não.
 # append: inserir elementos dentro de uma lista, item a item
 
 import os

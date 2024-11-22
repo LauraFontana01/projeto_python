@@ -1,4 +1,9 @@
-
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 21/11/2024
+# Estrutura de Dados
 
 import os
 

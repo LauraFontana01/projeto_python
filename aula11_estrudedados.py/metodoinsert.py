@@ -1,5 +1,11 @@
-
-
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 21/11/2024
+# Estrutura de Dados
+# O código solicita ao usuário uma posição e um elemento para inserir em uma lista, verifica se a posição é válida e, se for,
+#  insere o elemento na lista e exibe a lista atualizada. Caso a posição seja inválida, exibe uma mensagem de erro.
 
 import os
 

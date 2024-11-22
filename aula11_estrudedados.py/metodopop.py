@@ -1,4 +1,10 @@
-
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 21/11/2024
+# Estrutura de Dados
+# O código remove um elemento de uma lista em um índice fornecido pelo usuário, verifica a validade do índice e exibe o elemento removido ou uma mensagem de erro, além da lista atualizada.
 
 import os
 

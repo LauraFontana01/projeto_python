@@ -1,3 +1,10 @@
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 21/11/2024
+# Estrutura de Dados
+# O código solicita números ao usuário, filtra os pares, adiciona-os a uma lista principal preexistente e exibe a lista de pares e a lista final atualizada.
 # ele cata um negocio e insere 
 # ele pega uma lista e outra lista e une as duas, sem misturar, junção
 
