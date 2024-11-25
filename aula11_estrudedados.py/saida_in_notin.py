@@ -12,7 +12,7 @@ import os
 os.system('cls')
 
 print('-'*50)
-print('Saida com In e Not In')
+print(' Saida com In e Not In ')
 print('-'*50)
 
 # Exemplo com In

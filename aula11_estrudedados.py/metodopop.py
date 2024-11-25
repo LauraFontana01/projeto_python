@@ -14,7 +14,7 @@ os.system('cls')
 # Inicializa uma lista de exemplo
 lista_numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
-# Solicita ao usuário para inserir um índice paa remover o elemento
+# Solicita ao usuário para inserir um índice para remover o elemento
 indice = int(input('Digite o índice do elemento a ser removido (0-9): '))
 
 # Verifica se o índice está dentro do intervalo válido da lista
@@ -26,4 +26,4 @@ else:
     print('Índice inválido!')
 
 # Exibe a lista resultante
-    print('Lista após remoção:', lista_numeros)
+print('Lista após remoção:', lista_numeros)
