@@ -12,3 +12,66 @@
 #• Calcule e mostre a soma das notas.
 #• Calcule e mostre a média das notas.
 
+import os
+
+
+os.system('cls')
+
+# Entrada do titulo
+print('-'*50)
+print('Programa de Notas')
+print('-'*50)
+
+# Entrada
+lista_notas = []
+
+quantidade = 0
+soma = 0
+
+# Iteração das notas
+print('Insira as notas. Digite "s" ou "0" para sair.')
+print('.' * 70)
+while True:
+    nota = input('Digite uma nota: ').strip().lower()
+    print('-' * 70)
+
+    # Condição de quebra de laço
+    if nota == 's' or nota == '0':
+        break
+
+    # Inserção de valores na lista
+    lista_notas.append(float(nota))
+
+    # Contagem de notas inseridas
+    quantidade += 1
+print()
+
+# Lista inversa conforme a inserção
+lista_inversa = lista_notas[::-1]
+
+# Soma dos elementos da lista
+for i in range(len(lista_notas)):
+    soma += lista_notas[i]
+
+# Cálculo da média das notas
+media = soma / quantidade
+
+# Saída
+print('=' * 70)
+print(f'Quantidade de notas inseridas na lista: {quantidade}')
+print('-' * 70)
+print(f'Lista de notas respectivamente inseridas: {lista_notas}')
+print('-' * 70)
+
+# Iteração da lista de notas para saída de elementos
+print(f'Lista de notas inversa conforme inserção:')
+for i in range(len(lista_inversa)):
+    print(lista_inversa[i])
+print('-' * 70)
+
+# Saída
+print(f'A soma das notas é: {soma:.1f}')
+print('-' * 70)
+print(f'A média das notas é: {media:.1f}')
+print('=' * 70)
+print()
