@@ -10,10 +10,9 @@
 #• O intervalo de 8 até 13
 #• Os números pares
 #• Os números ímpares
-#• Os múltiplos de 2, 3 e 4
+#• Os múltiplos de 2, 3 e 4 - iteração desses números - (i % 2 == 0) or (i % 3 == 0) or (i % 4 == 0)
 #• Lista reversa
 #• O produto dos intervalos 5-6 por 11-12
-
 
 import os
 
@@ -21,53 +20,46 @@ import os
 os.system('cls')
 
 print('-'*50)
-print()
-print('Lista Númerica')
-print()
-print('.'*50)
+print('Intervalos e elementos em Lista!')
+print('-'*50)
 
-# Entrada 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 multiplos = []
 
 # Fatiamento da lista
-intervalo_1 = lista[0 : 9]
-intervalo_2 = lista[7 : 13]
+intervalo1 = lista[0 : 9]
+intervalo2 = lista[7 : 13]
 pares = lista[1 : 15 : 2]
 impares = lista[0 : 15 : 2]
-reversa = lista[::-1]
-intervalo_3 = lista[4 : 6]
-intervalo_4 = lista[10 : 12]
+reverse = lista[::-1]
+intervalo3 = lista[4 : 6]
+intervalo4 = lista[10 : 12]
 
-# Iteração lista
 for i in lista:
-    
-    # Condição múltiplo de 2, 3 e 4
-    if (i % 2 == 0) or (i % 3 == 0) or (i % 4 == 0):
+    if (i % 2 == 0 ) or (i % 3 == 0) or (i % 4 == 0):
         multiplos.append(i)
 
-# Produto dos intervalos 3 e 4
+# Produto dos intervalos 3(5-6) e 4(11-12)
 produto = [
-    a * b
-    for a in intervalo_3
-    for b in intervalo_4
+    int3 * int4 
+    for int3 in intervalo3
+    for int4 in intervalo4
 ]
 
 # Saída
-print(f'Lista inicial: {lista}')
-print('-' * 50)
-print(f'Intervalo de 1 a 9: {intervalo_1}')
-print('-' * 50)
-print(f'Intervalo de 8 a 13: {intervalo_2}')
-print('-' * 50)
+print(f'Lista base: {lista}')
+print('-'*50)
+print(f'Intervalo entre 1 a 9: {intervalo1}')
+print('-'*50)
+print(f'Intervalo entre 8 a 13: {intervalo2}')
+print('-'*50)
 print(f'Números pares: {pares}')
-print('-' * 50)
-print(f'Números ímpares: {impares}')
-print('-' * 50)
+print('-'*50)
+print(f'Números Ímpares: {impares}')
+print('-'*50)
 print(f'Múltiplos de 2, 3 e 4: {multiplos}')
-print('-' * 50)
-print(f'Lista revertida: {reversa}')
-print('-' * 50)
-print(f'Produto dos intervalos 5-6 por 11-12: {produto}')
-print('=' * 50)
-print()
+print('-'*50)
+print(f'Lista inversa: {reverse}')
+print('-'*50)
+print(f'O produto dos intervalos 5-6 por 11-12: {produto}')
+print('.'*50)

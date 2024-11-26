@@ -12,3 +12,14 @@ import os
 
 os.system('cls')
 
+print('-'*50)
+print('Inserção de número faltante em lista!')
+print('-'*50)
+
+lista_numeros = [1, 2, 3, 5, 6]
+
+print(f'Lista original: {lista_numeros}')
+print('.'*50)
+
+lista_numeros.insert(3, 4) # Inseriu o nº 4 no índice 3
+print(f'Lista modificada: {lista_numeros}')
