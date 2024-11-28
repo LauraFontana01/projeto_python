@@ -13,15 +13,15 @@ import os
 os.system('cls')
 
 print('-'*50)
-print('Inversão de vogais!')
+print('Brincadeira com Vogais')
 print('-'*50)
 
-# Lista
-lista = ['a', 'e', 'i', 'o', 'u']
+# Lista de vogais 
+lista_vogais = ['a', 'e', 'i', 'o', 'u']
 
 # Inversão da lista
-vogais = lista[::-1]
+vogais = lista_vogais[::-1]
 
-# Saída
-print(f'Lista de vogais: {lista}')
-print(f'Lista de vogais invertida: {vogais}')
+print(f'Lista original: {lista_vogais}')
+print(f'Lista Invertida: {vogais}')
+
