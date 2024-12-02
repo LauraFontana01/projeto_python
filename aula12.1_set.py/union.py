@@ -13,7 +13,7 @@ os.system('cls')
 
 # Titulo
 print('-'*50)
-print('Testando o elemento Union no set! c:\n Academia Fina Dança')
+print('Testando o método Union no set! c:\n Academia Fina Dança')
 print('Comemoração dos alunos da Prof.Kauane e do Prof.Hugo')
 print('-'*50)
 

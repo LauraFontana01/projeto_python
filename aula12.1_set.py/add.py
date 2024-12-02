@@ -12,7 +12,7 @@ os.system('cls')
 
 # Entrada do título
 print('-'*50)
-print('Testando o elemento add no set! c:\n Escolinha de Pets da Tia Lau - novos miaulunos')
+print('Testando o método add no set! c:\n Escolinha de Pets da Tia Lau - novos miaulunos')
 print('-'*50)
 
 # Set

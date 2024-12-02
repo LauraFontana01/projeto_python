@@ -12,7 +12,7 @@ os.system('cls')
 
 # Titulo
 print('-'*50)
-print('Testando clear no set! c:\n Roupas pra lavar :0')
+print('Testando o método clear no set! c:\n Roupas pra lavar :0')
 print('-'*50)
 
 # Set

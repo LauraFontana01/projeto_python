@@ -13,7 +13,7 @@ os.system('cls')
 
 # Titulo
 print('-'*50)
-print('Testando o elemento remove no set! c:\n Brownies da Lau - estoque')
+print('Testando o método remove no set! c:\n Brownies da Lau - estoque')
 print('-'*50)
 
 # Set

@@ -13,7 +13,7 @@ os.system('cls')
 
 # Titulo
 print('-'*50)
-print('Testando discard no set! c:\n Biscoitos no meu ármario!')
+print('Testando o método discard no set! c:\n Biscoitos no meu ármario!')
 print('-'*50)
 
 # Set

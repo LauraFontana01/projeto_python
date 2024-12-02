@@ -1,24 +1,27 @@
-
-
-
-
-
+# Curso Técnico em Desenvovimentos em Sistemas 
+# Turma 0392
+# Autor: Laura Fontana
+# Professor: Sebastião Marcos
+# Data: 02/12/2024
+# Atividade 008 - Set // add(elemento) Adiciona um elemento ao set.
+# clear(): Remove todos os elementos do set. / 
 import os
 
 
 os.system('cls')
 
 # Conjunto secreto definido
-conjunto_secreto = {"morango", "banana", "limão", "laranja"}
+conjunto_secreto = {'2', '4', '6', '8'}
 
 # Entrada do jogo
-print("Bem-vindo ao jogo de adivinhação de conjuntos :) ")
-print("Dica: O conjunto contém 4 frutas. Tente adivinhar os elementos!")
+print('-'*50)
+print("Bem-vindo ao jogo de adivinhação de conjunto :)\nDica: O conjunto contém 4 números de 0 a 10. Tente adivinhar os números!")
+print('-'*50)
 
 # Loop para permitir múltiplas tentativas
 while True:
     # Entrada do jogador
-    entrada = input("Digite os nomes das frutas separados por vírgulas: ").strip().lower()
+    entrada = input("Digite os nomes dos números separados por vírgulas: ").strip().lower()
     adivinhacao = set(entrada.split(","))
     
     # Removendo os espaços extras em cada item
@@ -39,3 +42,5 @@ while True:
     else:
         print("\nParabéns! Você adivinhou corretamente o conjunto secreto:", conjunto_secreto)
         break
+
+
