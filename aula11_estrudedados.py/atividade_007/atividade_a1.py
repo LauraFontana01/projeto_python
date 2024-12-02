@@ -46,7 +46,7 @@ while True:
     quantidade += 1
 print()
 
-# Lista inversa conforme a inserção
+# Lista inversa a partir da inserção
 lista_inversa = lista_notas[::-1]
 
 # Soma dos elementos da lista
@@ -60,10 +60,10 @@ media = soma / quantidade
 print('=' * 70)
 print(f'Quantidade de notas inseridas na lista: {quantidade}')
 print('-' * 70)
-print(f'Lista de notas respectivamente inseridas: {lista_notas}')
+print(f'Lista de notas inseridas: {lista_notas}')
 print('-' * 70)
 
-# Iteração da lista de notas para saída de elementos
+# Iteração da lista das notas para saída de elementos
 print(f'Lista de notas inversa conforme inserção:')
 for i in range(len(lista_inversa)):
     print(lista_inversa[i])
