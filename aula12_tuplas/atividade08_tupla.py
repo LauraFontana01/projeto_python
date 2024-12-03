@@ -3,8 +3,8 @@
 # Autor: Laura Fontana
 # Professor: Sebastião Marcos
 # Data: 02/12/2024
-# Atividade 008 - Set // add(elemento) Adiciona um elemento ao set.
-# clear(): Remove todos os elementos do set. / 
+# Atividade 008
+
 import os
 
 
@@ -21,7 +21,8 @@ print('-'*50)
 # Loop para permitir múltiplas tentativas
 while True:
     # Entrada do jogador
-    entrada = input("Digite os nomes dos números separados por vírgulas: ").strip().lower()
+    entrada = input("Digite os números separados por vírgulas: ").strip().lower()
+    print('-'*50)
     adivinhacao = set(entrada.split(","))
     
     # Removendo os espaços extras em cada item
