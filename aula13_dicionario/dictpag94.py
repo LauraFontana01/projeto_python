@@ -1,6 +1,6 @@
 # Curso Técnico em Desenvovimentos em Sistemas 
 # Turma 0392
-# Autor: Laura Fontana
+# Autor: Laura Fontana Ribeiro
 # Professor: Sebastião Marcos
 # Data: 13/01/2025
 
@@ -25,7 +25,7 @@ compras['item']= 'Caderno'
 compras['valor'] = 10.80
 
 pessoas['id'] = '0010'
-pessoas['nome'] = 'Sherlock Holmes'
+pessoas['nome'] = 'Sir Sherlock Holmes'
 pessoas['endereco'] = 'Baker Street'
 pessoas['numero'] = '2218'
 pessoas['cidade'] = 'Londres'
