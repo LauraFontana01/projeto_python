@@ -14,35 +14,36 @@ import os
 
 os.system('cls')
 
-# Definir função "def function(param)" 
-# Definição da função chamada de 'listar_numero' recebe parametro 'numero'
-def listar_numero(numero):
-    
+# Primeiro passo: Definir função "def function(param)" 
+def listar_numeros(numero):
+
     lista_par = []
     lista_impar = []
+
     # Verificação dos números pares e ímpares
     for n in lista:
         if n % 2 == 0:
-            lista_par.append(n)
+            lista_par.append(n) # Append adiciona um item no final da lista
         else:
             lista_impar.append(n)
 
-        # Contagem dos números nas listas
+        # Contagem dos números nas listas - Len retorna o número de ocorrências de tal elemento
         quantidade_par = len(lista_par)
         quantidade_impar = len(lista_impar)
-    
+
+     # Retorna os valores feitos dentro da função
     return lista_par, lista_impar, quantidade_par, quantidade_impar
 
 # Definindo a lista de números
-lista = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 19, 21, 27, 33)
+lista = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 # Chamando a função
-lista_par, lista_impar, quantidade_par, quantidade_impar = listar_numero(lista)
+lista_par, lista_impar, quantidade_par, quantidade_impar = listar_numeros(lista)
 
 # Saídas
-print('Lista de números pares', lista_par)
+print('Lista de números pares:', lista_par)
 print('Quantidade de pares:', quantidade_par)
 print('Lista de números ímpares', lista_impar)
 print('Quantidade de ímpares:', quantidade_impar)
 
-
+    
