@@ -4,8 +4,11 @@
 # Professor: Sebastião Marcos
 # Data: 04/11/2024
 # Biblioteca Math
-
-# Faça um programa que receba um valor e mostre sua raiz quadrada. Para raízes que não são exatas, arredonde para cima ou para baixo. Faça a validação para números negativos, avisando ao usuário que o resultado será um número complexo.
+# # º Receber número
+# º Imprimir raiz quadrada do número.
+# º Arredondar as raízes pra cima ou pra baixo.
+# º Validar números negativos.
+# º Avisar ao usuário que o resultado será um número complexo.
 
 import os 
 
@@ -25,8 +28,8 @@ numero = float(input('Digite um número: '))
 if numero < 0:
     print('O resultado será um número complexo!')
 else:
-    raizquadrada = math.sqrt (numero)
-    arredondar_acima = math.ceil(raizquadrada)
+    raizquadrada = math.sqrt (numero) # função math.sqrt(x) retorna a raiz quadrada de um número x. O valor de x deve ser positivo!
+    arredondar_acima = math.ceil(raizquadrada) # função math.ceil(x) retorna o menor número inteiro maior ou igual a x. Rla arredonda o número para cima, para o próximo inteiro.
     print(f'A raiz quadrada de {numero} é: {arredondar_acima}')
 
 
