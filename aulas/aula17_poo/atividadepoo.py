@@ -17,8 +17,8 @@ def titulo():
     print('-'*80)
     print()
 
-class Nome:
-    def __init__(self, nome, nomedomeio, sobrenome,): # init(método construtor) sempre tera dois underlines       metodo construtor()
+class Nome: # criação de uma classe
+    def __init__(self, nome, nomedomeio, sobrenome,): # init(método construtor) sempre tera dois underlines   //    metodo construtor(self, parametro1, parametro2, parametro3)
         self.nome = nome
         self.nomedomeio = nomedomeio
         self.sobrenome = sobrenome
