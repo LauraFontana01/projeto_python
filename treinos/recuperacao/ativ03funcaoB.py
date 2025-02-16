@@ -12,7 +12,7 @@
 import os
 import math
 
-os.system('cls')
+os.system('clear')
 
 # Função calcular divisão
 def calcular():
